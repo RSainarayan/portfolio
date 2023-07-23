@@ -62,7 +62,7 @@ const Portfolio = () => {
               <div className='w-1/3 flex grid-flow-col justify-end p-10'>
               <h2 className='  hover:text-gray-800 text-right hover:text-center' >{title}<br></br></h2>
               <a className=' text-gray-800 hover:text-rose-400 text-2xl cursor-pointer duration-150 hover:scale-110' 
-              href=''
+              href='https://github.com/RSainarayan'
               target='_blank'
               rel='noopener noreferrer'
               >
