@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './common/Section'
-import {FaTwitter, FaInstagram, FaArrowDown, FaGithub} from "react-icons/fa"
+import {FaTwitter, FaInstagram, FaArrowDown, FaGithub, FaWhatsapp} from "react-icons/fa"
 import chat from '../assests/chat.png'
 
 const Contact = () => {
@@ -20,6 +20,11 @@ const Contact = () => {
           link: 'https://github.com',
           icon: <FaGithub/>
         },
+        {
+            id:1,
+            link: 'https://wa.me/9944455321',
+            icon: <FaWhatsapp/>
+          },
         
         
       ];
