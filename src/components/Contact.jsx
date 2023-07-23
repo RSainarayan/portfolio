@@ -7,17 +7,17 @@ const Contact = () => {
     const Social = [
         {
           id:1,
-          link: 'https://twitter.com',
+          link: 'https://twitter.com/Sainarayan',
           icon: <FaTwitter/>
         },
         {
           id:2,
-          link: 'https://Instagram.com',
+          link: 'https://Instagram.com/_sainarayan_',
           icon: <FaInstagram/>
         },
         {
           id:1,
-          link: 'https://github.com',
+          link: 'https://github.com/RSainarayan',
           icon: <FaGithub/>
         },
         {

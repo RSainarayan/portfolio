@@ -7,17 +7,17 @@ const Profile = () => {
   const Social = [
     {
       id:1,
-      link: 'https://twitter.com',
+      link: 'https://twitter.com/Sainarayan',
       icon: <FaTwitter/>
     },
     {
       id:2,
-      link: 'https://Instagram.com',
+      link: 'https://Instagram.com/_sainarayan_',
       icon: <FaInstagram/>
     },
     {
       id:1,
-      link: 'https://github.com',
+      link: 'https://github.com/RSainarayan',
       icon: <FaGithub/>
     },
     {
@@ -25,11 +25,7 @@ const Profile = () => {
       link: 'https://wa.me/9944455321',
       icon: <FaWhatsapp/>
     },
-    {
-      id:8,
-      link: 'https://pdfhost.io/v/~3X9Wh.~k_Minimalist_White_and_Grey_Professional_Resume',
-      
-    },
+    
     
   ];
 
