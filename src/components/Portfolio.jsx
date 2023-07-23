@@ -68,11 +68,8 @@ const Portfolio = () => {
               >
                 <FaGithub/>
               </a>
-              <a className=' text-gray-800 hover:text-rose-400 text-2xl cursor-pointer duration-150 hover:scale-110' 
-              href=''            
-              >
-                <FaExternalLinkSquareAlt/>
-              </a>
+              
+              
               </div>
             </div>
           ))}        
