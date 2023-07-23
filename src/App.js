@@ -14,11 +14,12 @@ function App() {
       <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
 
       <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-        <Profile/>
+        
         <Services/>
         <Portfolio/>
         <Education/>
         <Contact/>
+        <Profile/>
         <Footer/>
 
         
