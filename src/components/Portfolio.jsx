@@ -59,7 +59,7 @@ const Portfolio = () => {
           projects.map(({id,image,title,github,demo}) =>(
             <div key={id} className=' text-right text-gray-400 max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden duration-300 ease-out-in hover:scale-110'>
               <img src={image} alt={title} className='w-2/3'/>
-              <div className='w-1/3 flex grid-flow-col items-center justify-evenly p-10'>
+              <div className='w-1/3 flex grid-flow-col justify-self-center p-10'>
               <h2 className='  hover:text-gray-800 text-left hover:text-center' >{title}</h2>
               <a className=' text-gray-800 hover:text-rose-400 text-2xl cursor-pointer duration-150 hover:scale-110' 
               href=''
@@ -69,8 +69,7 @@ const Portfolio = () => {
                 <FaGithub/>
               </a>
               <a className=' text-gray-800 hover:text-rose-400 text-2xl cursor-pointer duration-150 hover:scale-110' 
-              href=''
-              
+              href=''            
               >
                 <FaExternalLinkSquareAlt/>
               </a>
