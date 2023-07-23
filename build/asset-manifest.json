@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a101483.css",
+    "main.js": "/static/js/main.143e220d.js",
+    "static/media/avatar.JPG": "/static/media/avatar.7a5ef42d27f9f872ecb4.JPG",
+    "static/media/Wireshark.png": "/static/media/Wireshark.b134a6b7e6607189d4f0.png",
+    "static/media/react.png": "/static/media/react.582cbc784710a3dbe704.png",
+    "static/media/alcohol.jpeg": "/static/media/alcohol.beadbb41fec5fe17ba9e.jpeg",
+    "static/media/college.png": "/static/media/college.3c91dacc04d26a102c2d.png",
+    "static/media/HSschool.png": "/static/media/HSschool.0b98b1b5d42ea1f5ba8b.png",
+    "static/media/symbol.png": "/static/media/symbol.05ee6b165552117004b0.png",
+    "static/media/carapp.jpg": "/static/media/carapp.5f787b9d5ee5ba47dab6.jpg",
+    "static/media/nmap.png": "/static/media/nmap.6125a889afe06cbe895b.png",
+    "static/media/Hschool.jpeg": "/static/media/Hschool.a08a0cde4fc8c6ec335a.jpeg",
+    "static/media/fishermanapp.jpg": "/static/media/fishermanapp.23816d3a6202bec82b1f.jpg",
+    "static/media/nodejs.png": "/static/media/nodejs.bc4b43cd5f20ba305059.png",
+    "static/media/Html.png": "/static/media/Html.a92a549a591f4acb527a.png",
+    "static/media/house.jpg": "/static/media/house.8b8f71f6397e264fa59f.jpg",
+    "static/media/chat.png": "/static/media/chat.d8880b8df7d400e1dcd8.png",
+    "static/media/css.png": "/static/media/css.fc94f336dc27191bd10d.png",
+    "index.html": "/index.html",
+    "main.1a101483.css.map": "/static/css/main.1a101483.css.map",
+    "main.143e220d.js.map": "/static/js/main.143e220d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a101483.css",
+    "static/js/main.143e220d.js"
+  ]
+}
