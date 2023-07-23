@@ -18,8 +18,7 @@ function App() {
         <Services/>
         <Portfolio/>
         <Education/>
-        <Contact/>
-        <Profile/>
+        <Contact/>        
         <Footer/>
 
         
