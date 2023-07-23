@@ -40,10 +40,10 @@ const Education = () => {
 
   return (
   
-  <Section title='Education🖋️' subtitle = 'These are my qualifications which i have persured.' >
+  <Section title='Education🖋️' subtitle = 'These are my qualifications which I have pursued.' >
     <div className='max-w-xl flex flex-col gap-2'>
       {Education.map(({id,image,name,comment}) => (
-        <div className='flex p-10 justify-center items-center rounded-xl shadow-md dark:shadow-rose-400 overflow-hidden duration-300 ease-out-in hover:scale-110'>
+        <div className='flex p-10 justify-center items-center rounded-xl shadow-md dark:shadow-rose-400 overflow-hidden duration-300 ease-out-in hover:scale-110 blur-sm hover:blur-none'>
           <div className='w-1/4 p-1'>
             <img src={image} alt={name} className='w-20 h-20 object-contain'/>
           </div>
