@@ -25,6 +25,11 @@ const Profile = () => {
       link: 'https://wa.me/9944455321',
       icon: <FaWhatsapp/>
     },
+    {
+      id:8,
+      link: 'https://pdfhost.io/v/~3X9Wh.~k_Minimalist_White_and_Grey_Professional_Resume',
+      
+    },
     
   ];
 
@@ -68,7 +73,7 @@ const Profile = () => {
       alt=""
       className='w-80 md:w-100 ,md:h-80, object-cover object-top rounded-2xl '
       />
-      <a href='https://pdfhost.io/v/~3X9Wh.~k_Minimalist_White_and_Grey_Professional_Resume' className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-400 text-white py-2 rounded-lg'>
+      <a href= 'https://pdfhost.io/v/~3X9Wh.~k_Minimalist_White_and_Grey_Professional_Resume' className='flex items-center justify-center mt-10 bg-gradient-to-r from-rose-600 to-teal-400 text-white py-2 rounded-lg'>
         Resume
       </a>
     </div>
