@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaTwitter, FaInstagram, FaArrowDown, FaGithub} from "react-icons/fa"
+import {FaTwitter, FaInstagram, FaArrowDown, FaGithub, FaWhatsapp} from "react-icons/fa"
 import avatar from '../assests/avatar.JPG'
 
 const Profile = () => {
@@ -19,6 +19,11 @@ const Profile = () => {
       id:1,
       link: 'https://github.com',
       icon: <FaGithub/>
+    },
+    {
+      id:1,
+      link: 'https://wa.me/9944455321',
+      icon: <FaWhatsapp/>
     },
     
   ];
