@@ -58,7 +58,7 @@ const Portfolio = () => {
         {
           projects.map(({id,image,title,github,demo}) =>(
             <div key={id} className=' text-right text-gray-400 max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden duration-300 ease-out-in hover:scale-110'>
-              <img src={image} alt={title} className=' object-left object-contain h-auto w-auto transition-all duration-300 rounded-lg blur-sm hover:blur-none'/>
+              <img src={image} alt={title} className=' object-left object-contain h-48 w-96'/>
               <div className='w-1/3 flex grid-flow-col justify-end p-10'>
               <h2 className='  hover:text-gray-800 text-right hover:text-center' >{title}</h2>
               <a className=' text-gray-800 hover:text-rose-400 text-2xl cursor-pointer duration-150 hover:scale-110' 
