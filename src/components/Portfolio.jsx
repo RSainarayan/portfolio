@@ -2,7 +2,6 @@ import React from 'react'
 import Section from './common/Section'
 import { FaGithub, FaExternalLinkSquareAlt, FaDemocrat } from 'react-icons/fa'
 import carapp from '../assests/carapp.jpg'
-
 import alcohol from '../assests/alcohol.jpeg'
 import house from '../assests/house.jpg'
 
