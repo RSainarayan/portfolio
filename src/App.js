@@ -6,6 +6,8 @@ import Portfolio from "./components/Portfolio";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Location from './components/Location'
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,8 +21,11 @@ function App() {
         
         <Portfolio/>
         <Education/>
-        <Contact/>        
+        <Contact/>
+        <Location/>
+               
         <Footer/>
+        
 
         
 
