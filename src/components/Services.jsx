@@ -74,7 +74,7 @@ const Services = () => {
    subtitle="Hey there! I am a passionate and versatile professional with a strong background in web development and cybersecurity. I specialize in crafting secure and dynamic web solutions to address the ever-evolving digital landscape."
    
    >
-    <div className='grid gap-10 lg:grid-cols-2'>
+    <div className='relative w-full data-carousel-slide'>
         {
             Services.map(({id, image, title}) => (
                 <div key={id} className=' data-carousel-item hidden duration-300 ease-in-out'>
