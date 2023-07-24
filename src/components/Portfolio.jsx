@@ -21,7 +21,7 @@ const Portfolio = () => {
 
     {
       id:2,
-      image:rnode,
+      image:fishermanapp,
       title:'DETECTION OF REGIONS PRONE TO BOAT OVERTURNING',
       github: '',
       demo:''
