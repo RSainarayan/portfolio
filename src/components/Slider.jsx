@@ -5,7 +5,7 @@ const Slider = () => {
     const Slider = [
         {
             id:1,
-            image: Html,
+            
         }
             
        
