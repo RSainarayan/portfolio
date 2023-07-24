@@ -11,8 +11,8 @@ const map = () => {
         allowfullscreen="none"
         loading="lazy"
          referrerpolicy="no-referrer-when-downgrade"
-         width = '750'
-         height = '800'
+         width = '500'
+         height = '300'
          
          
          
