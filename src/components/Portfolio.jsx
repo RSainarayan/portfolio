@@ -22,7 +22,7 @@ const Portfolio = () => {
       id:2,
       image:fishermanapp,
       title: 'DETECTION OF REGIONS PRONE TO BOAT OVERTURNING',
-      github: '',
+      
       demo:''
     },
 
