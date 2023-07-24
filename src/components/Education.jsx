@@ -41,8 +41,8 @@ const Education = () => {
   return (
   
   <Section title='Education🖋️' subtitle = 'These are my qualifications which I have pursued.' >
-    <div className='max-w-xl flex flex-col gap-2'>
-      {Education.map(({id,image,name,comment}) => (
+  {/* //   <div className='max-w-xl flex flex-col gap-2'>
+  //     {Education.map(({id,image,name,comment}) => (
         <div className='flex p-10 justify-center items-center rounded-xl shadow-md dark:shadow-rose-400 overflow-hidden duration-300 ease-out-in hover:scale-110 blur-sm hover:blur-none'>
           <div className='w-1/4 p-1'>
             <img src={image} alt={name} className='w-20 h-20 object-contain'/>
@@ -56,11 +56,11 @@ const Education = () => {
       ))}
 
 
-    </div>
+    </div> */}
 
 
 
-    <div
+    <div 
   id="carouselDarkVariant"
   class="relative"
   data-te-carousel-init
@@ -98,7 +98,7 @@ const Education = () => {
       data-te-carousel-item
       data-te-carousel-active>
       <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
+        src="../assests/css.png"
         class="block w-full"
         alt="Motorbike Smoke" />
       <div
@@ -115,7 +115,7 @@ const Education = () => {
       data-te-carousel-fade
       data-te-carousel-item>
       <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
+        src="../assests/flutter.png"
         class="block w-full"
         alt="Mountaintop" />
       <div
@@ -132,7 +132,7 @@ const Education = () => {
       data-te-carousel-fade
       data-te-carousel-item>
       <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
+        src="../assests/burpsuite.png"
         class="block w-full"
         alt="Woman Reading a Book" />
       <div
@@ -201,7 +201,8 @@ const Education = () => {
 
 
   </Section>
-  
+
+ 
 )}
 
 export default Education
