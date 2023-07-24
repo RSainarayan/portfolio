@@ -13,7 +13,7 @@ const map = () => {
          referrerpolicy="no-referrer-when-downgrade"
          width = '500'
          height = '300'
-         className ='object-contain rounded-2xl'
+         className ='rounded-2xl'
          
          
          
