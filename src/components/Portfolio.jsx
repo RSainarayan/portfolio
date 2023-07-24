@@ -1,8 +1,8 @@
 import React from 'react'
 import Section from './common/Section'
 import { FaGithub, FaExternalLinkSquareAlt, FaDemocrat } from 'react-icons/fa'
+import carapp from '../assests/carapp.jpg'
 
-import rnode from '../assests/rnode.png'
 import alcohol from '../assests/alcohol.jpeg'
 import house from '../assests/house.jpg'
 
@@ -12,7 +12,7 @@ const Portfolio = () => {
   const projects = [
     {
       id:1,
-      image:rnode,
+      image:carapp,
       title: 'REAL TIME VEHICLE SUPPORT APPLICATION',
       github: '',
       demo:''
@@ -22,7 +22,7 @@ const Portfolio = () => {
       id:2,
       image:fishermanapp,
       title: 'DETECTION OF REGIONS PRONE TO BOAT OVERTURNING',
-      
+      github: '',
       demo:''
     },
 
