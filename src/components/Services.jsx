@@ -77,7 +77,7 @@ const Services = () => {
     <div className='grid gap-10 lg:grid-cols-2'>
         {
             Services.map(({id, image, title}) => (
-                <div key={id} className='flex flex-col items-center justify-center p-5 shadow-lg dark:shadow-red-600 rounded-xl duration-300 ease-in-out hover:scale-110 transition-all duration-300'>
+                <div key={id} className='data-carousel="slide"duration-300'>
                     <img src = {image} alt={title} className='w-36 h-36 md:h-44 object-contain'/>
                     <h3 className='animate-pulse text-grey-400 top-1 mt-5 text-base'>{title}</h3>
 
