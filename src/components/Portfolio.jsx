@@ -4,6 +4,8 @@ import { FaGithub, FaExternalLinkSquareAlt, FaDemocrat } from 'react-icons/fa'
 import carapp from '../assests/carapp.jpg'
 import alcohol from '../assests/alcohol.jpeg'
 import house from '../assests/house.jpg'
+import fishermanapp from '../assests/fishermanapp.jpg'
+import rnode from '../assests/rnode.png'
 
 
 const Portfolio = () => {
@@ -12,15 +14,15 @@ const Portfolio = () => {
     {
       id:1,
       image:carapp,
-      title: 'REAL TIME VEHICLE SUPPORT APPLICATION',
+      title:'REAL TIME VEHICLE SUPPORT APPLICATION',
       github: '',
       demo:''
     },
 
     {
       id:2,
-      image:fishermanapp,
-      title: 'DETECTION OF REGIONS PRONE TO BOAT OVERTURNING',
+      image:rnode,
+      title:'DETECTION OF REGIONS PRONE TO BOAT OVERTURNING',
       github: '',
       demo:''
     },
@@ -28,7 +30,7 @@ const Portfolio = () => {
     {
       id:3,
       image:alcohol,
-      title: 'ALCOHOL DETECTION SYSTEM IN CARS',
+      title:'ALCOHOL DETECTION SYSTEM IN CARS',
       github: '',
       demo:''
     },
@@ -36,7 +38,7 @@ const Portfolio = () => {
     {
       id:4,
       image:house,
-      title: 'SMART WATER AUTOMATION SYSTEM',
+      title:'SMART WATER AUTOMATION SYSTEM',
       github: '',
       demo:''
     },
@@ -56,16 +58,16 @@ const Portfolio = () => {
       <div className='grid gap-20 lg:gap-14 lg:grid-cols-14'>
         {
           projects.map(({id,image,title,github,demo}) =>(
-            <div key={id} className=' text-right text-gray-400 max-w-md flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden duration-300 ease-out-in'>
-              <img src={image} alt={title} className=' object-left object-contain h-48 w-96'/>
-              <div className='w-1/3 flex grid-flow-col justify-end p-10'>
-              <h2 className='  hover:text-gray-800 text-right hover:text-center' >{title}<br></br></h2>
-              <a className=' text-gray-800 hover:text-rose-400 text-2xl cursor-pointer duration-150 hover:scale-110' 
+            <div key={id} className=' justify-items-center text-gray-400 max-w-xl flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden duration-300 ease-out-in'>
+              <img src={image} alt={title} className=' mt-5 object-scale-down justify-items-center h-48 w-96'/>
+              <div className='mt-5 w-1/3 flex flex-row justify-items-center p-3'>
+              <h2 className=' mt-5  hover:text-gray-800 text-left hover:text-center' >{title}</h2>
+              <a className='text-gray-800 hover:text-rose-400 text-xl cursor-pointer duration-150 hover:scale-110' 
               href='https://github.com/RSainarayan'
               target='_blank'
               rel='noopener noreferrer'
               >
-                <FaGithub/>
+                <FaGithub className="grid grid-cols-3 gap-10 place-items-end h-56 me-5"/>
               </a>
               
               
