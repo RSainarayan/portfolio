@@ -22,7 +22,7 @@ function App() {
         <Portfolio/>
         <Education/>
         <Contact/>
-        
+        <Location/>
                
         <Footer/>
         
