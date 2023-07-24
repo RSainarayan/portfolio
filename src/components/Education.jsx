@@ -115,7 +115,7 @@ const Education = () => {
       data-te-carousel-fade
       data-te-carousel-item>
       <img
-        src="../assests/flutter.png"
+        src="{image}"
         class="block w-full"
         alt="Mountaintop" />
       <div
